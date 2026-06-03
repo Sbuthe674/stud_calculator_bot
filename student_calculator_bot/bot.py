@@ -8,7 +8,6 @@ from handlers.start import start
 
 
 def main():
-
     app = Application.builder().token(TOKEN).build()
 
     app.add_handler(
